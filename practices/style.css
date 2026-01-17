@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 1);
+    color:white;
+}
+/* navbar design */
+nav{
+  
+    padding: 5px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>p{
+    font-size: 33px;
+    color: #E6533C;
+    font-weight: bold;
+    font-style: italic;
+}
+nav>div{
+    border: 1px solid rgb(33, 32, 32);
+    display: flex;
+    gap: 47px;
+    align-items: center;
+    border-radius: 39px;
+    padding: 3px 5px;
+}
+.home-btn{
+    background-color: #E6533C ;
+    padding: 5px 10px;
+    border-radius: 46px;
+}
+nav>span{
+    margin-right: 5px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive codes */
+@media  screen  and (max-width:425px) {
+    .menu-container{
+        display: none;
+    }
+    nav>span{
+    margin-right: 5px;
+    display: inline;
+}
+
+}
