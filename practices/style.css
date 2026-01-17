@@ -44,8 +44,69 @@ nav>span{
     display: none;
 }
 
+/*  banner design */
+.banner-container{
+    padding: 10px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+.banner-left{
+    min-height: 200px;
+    width: 50%;
+}
+.banner-left>h1{
+    font-size: 78px;
+}
+.banner-left>p{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.btn-container>button{
+    width: 200px;
+    height: 54px;
+    border-radius: 42px;
+}
+.banner-right{
+    min-height: 200px;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+.banner-right>img{
+    width: 55% ;
+}
+.tooltip{
+    background-color: rgba(128, 128, 128, 0.269);
+    position:  absolute ;
+    right: -10%;
+    width: 193px;
+    height: 98px;
+    padding-left: 10px;
+    padding-top: 20px;
+    border-radius: 12px;
+    top: 17%;
 
-
+}
+.tooltip2{
+    background-color: rgba(79, 70, 70, 0.346);
+    position:  absolute ;
+    border-radius: 12px;
+    padding: 20px;
+    gap: 10px;
+    top: 70%;
+    left: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ball{
+    width: 50px;
+    height: 50px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
 
 
 
@@ -101,5 +162,22 @@ nav>span{
     margin-right: 5px;
     display: inline;
 }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-right,.banner-left{
+        width: 100%;
+    }
+    .banner-right>img{
+    width: 100% ;
+}
 
+.tooltip{
+    
+    top: 10%;
+
+}
+.tooltip2{
+    left: 10px;
+}
 }
